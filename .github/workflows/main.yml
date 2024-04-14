@@ -33,10 +33,6 @@ jobs:
           
       - name: Setup libs & build package
         run: |
-          cd libimagepicker
-          chmod +x install.sh
-          THEOS=../theos ./install.sh
-          cd ..
           brew install make xz ldid
           chmod +x install.sh
           THEOS=../theos ./install.sh
