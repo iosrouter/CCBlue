@@ -28,7 +28,7 @@ jobs:
       - name: Checkout libimagepicker/master
         uses: actions/checkout@main
         with:
-          repository: Muirey03/libimagepicker
+          repository: iosrouter/libimagepicker
           path: libimagepicker
           
       - name: Setup libs & build package
