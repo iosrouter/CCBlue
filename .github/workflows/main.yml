@@ -36,6 +36,7 @@ jobs:
           cd libimagepicker
           chmod +x install.sh
           THEOS=../theos ./install.sh
+          cd ..
           brew install make xz ldid
           THEOS=theos gmake clean package FINALPACKAGE=1 THEOS_PACKAGE_SCHEME=rootless
 
