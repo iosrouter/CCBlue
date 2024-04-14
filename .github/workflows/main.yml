@@ -34,6 +34,7 @@ jobs:
       - name: Setup libs & build package
         run: |
           cd libimagepicker
+          chmod +x install.sh
           THEOS=../theos ./install.sh
           cd ..
 
