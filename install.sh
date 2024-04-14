@@ -1,1 +1,1 @@
-cp libimagepicker/libimagepicker.dylib "${THEOS}/lib"
+cp libimagepicker/libimagepicker.dylib "${THEOS}/lib/iphone/rootless"
