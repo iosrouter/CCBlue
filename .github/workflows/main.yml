@@ -35,16 +35,13 @@ jobs:
         run: |
           cd libimagepicker
           chmod +x install.sh
-          THEOS=../theos 
-          ./install.sh
-          cd ..
-
-      - name: Build Package
-        run: |
+          THEOS=../theos ./install.sh
           brew install make xz ldid
           export THEOS=theos
           gmake clean package FINALPACKAGE=1
           gmake clean package FINALPACKAGE=1 THEOS_PACKAGE_SCHEME=rootless
+
+          
 
       - name: Upload a Build Artifact
         uses: actions/upload-artifact@v3
