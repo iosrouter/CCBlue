@@ -1,4 +1,5 @@
-TARGET := iphone:clang:latest:15.6
+TARGET := iphone:clang:latest:16.5
+export SYSROOT = $(THEOS)/sdks/iPhoneOS16.5.sdk
 INSTALL_TARGET_PROCESSES = Preferences
 
 include $(THEOS)/makefiles/common.mk
