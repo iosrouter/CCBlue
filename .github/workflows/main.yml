@@ -24,6 +24,18 @@ jobs:
           repository: theos/sdks
           sparse-checkout: iPhoneOS16.5.sdk
           path: theos/sdks
+          
+      - name: Checkout libimagepicker/master
+        uses: actions/checkout@main
+        with:
+          repository: Muirey03/libimagepicker
+          path: libimagepicker
+          
+      - name: Setup libs & build package
+        run: |
+          cd libimagepicker
+          THEOS=../theos ./install.sh
+          cd ..
 
       - name: Build Package
         run: |
