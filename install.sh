@@ -1,1 +1,1 @@
-cp usr/lib/libimagepicker.dylib "${THEOS}/lib."
+cp libimagepicker/usr/lib/libimagepicker.dylib "${THEOS}/lib."
