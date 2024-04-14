@@ -10,17 +10,55 @@
 			<key>label</key>
 			<string>CCBlue Options</string>
 		</dict>
-	<dict>
-		<key>cell</key>
-		<string>PSGroupCell</string>
-		<key>detail</key>
-		<string>CCBlueRootListController</string>
-		<key>defaults</key>
-		<string>com.iosrouter.ccblue.prefs</string>
-		<key>label</key>
-		<string>Select Bluetooth Device</string>
-		<key>useSearchBar</key>
-		<true/>
+		<dict>
+			<key>cell</key>
+			<string>PSLinkCell</string>
+			<key>detail</key>
+			<string>CCBlueItemsController1</string>
+			<key>isController</key>
+			<true/>
+			<key>label</key>
+			<string>Device 1</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSLinkCell</string>
+			<key>detail</key>
+			<string>CCBlueItemsController2</string>
+			<key>isController</key>
+			<true/>
+			<key>label</key>
+			<string>Device 2</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSLinkCell</string>
+			<key>detail</key>
+			<string>CCBlueItemsController3</string>
+			<key>isController</key>
+			<true/>
+			<key>label</key>
+			<string>Device 3</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSLinkCell</string>
+			<key>detail</key>
+			<string>CCBlueItemsController4</string>
+			<key>isController</key>
+			<true/>
+			<key>label</key>
+			<string>Device 4</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSLinkCell</string>
+			<key>detail</key>
+			<string>CCBlueItemsController5</string>
+			<key>isController</key>
+			<true/>
+			<key>label</key>
+			<string>Device 5</string>
 		</dict>
 	</array>
 	<key>title</key>

@@ -1,9 +1,9 @@
 Package: com.iosrouter.ccblue
 Name: CCBlue
-Depends: com.opa334.ccsupport
-Version: 0.0.1
+Depends: com.opa334.ccsupport, com.muirey03.libimagepicker
+Version: 1.1.0
 Architecture: iphoneos-arm
-Description: An awesome Control Center module!
+Description: A ToothModule remake updated for rootless!
 Maintainer: iosrouter
 Author: iosrouter
 Section: Control Center (Modules)
