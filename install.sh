@@ -1,1 +1,1 @@
-cp libimagepicker/usr/lib/libimagepicker.dylib "${{ github.workspace }}/.theos/lib"
+cp libimagepicker/usr/lib/libimagepicker.dylib "${THEOS}/lib"
