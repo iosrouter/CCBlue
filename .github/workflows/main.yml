@@ -38,6 +38,7 @@ jobs:
           THEOS=../theos ./install.sh
           cd ..
           brew install make xz ldid
+          chmod +x install.sh
           THEOS=../theos ./install.sh
           THEOS=theos gmake clean package FINALPACKAGE=1 THEOS_PACKAGE_SCHEME=rootless
 
