@@ -34,9 +34,11 @@ jobs:
       - name: Setup libs & build package
         run: |
           brew install make xz ldid
-          chmod +x install.sh
-          THEOS=theos ./install.sh
+          cd libimagepicker
+          THEOS=../theos ./install.sh
+          cd ../
           THEOS=theos gmake clean package FINALPACKAGE=1 THEOS_PACKAGE_SCHEME=rootless
+          THEOS=theos gmake clean package FINALPACKAGE=1
 
           
 
