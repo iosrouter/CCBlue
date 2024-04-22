@@ -38,8 +38,6 @@ jobs:
           chmod +x install.sh
           THEOS=../theos ./install.sh
           cd ../
-          chmod +x install.sh
-          THEOS=../theos ./install.sh
           THEOS=theos gmake clean package FINALPACKAGE=1 THEOS_PACKAGE_SCHEME=rootless
           THEOS=theos gmake clean package FINALPACKAGE=1
 
